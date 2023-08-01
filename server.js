@@ -7,7 +7,8 @@ app.set("view engine", "ejs");
 app.use('/static', express.static('public'))
 
 app.get('/', (req, res) => {
-    res.render("index");
+    //res.render("index");
+    res.send("helloq");
 })
 
 app.listen(port, () => {
