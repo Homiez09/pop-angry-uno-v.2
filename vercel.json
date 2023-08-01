@@ -6,7 +6,7 @@
       },
       {
         "src": "/static/(*.*)",
-        "use": "@vercel/node"
+        "use": "@vercel/static"
       }
   ],
   "routes": [
@@ -15,7 +15,7 @@
         "dest": "server.js"
       },
       {
-        "src": "static",
+        "src": "/static/*",
         "dest": "public"
       }
   ]
