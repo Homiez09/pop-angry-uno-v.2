@@ -3,6 +3,10 @@
       {
           "src": "/*",
           "use": "@vercel/node"
+      },
+      {
+        "src": "/static/(*.*)",
+        "use": "@vercel/node"
       }
   ],
   "routes": [
